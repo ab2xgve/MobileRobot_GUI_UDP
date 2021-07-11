@@ -107,7 +107,6 @@ public class UDPConnection : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        Debug.Log( Time.deltaTime.ToString());
         DataContainer cont = FindObjectOfType<DataContainer>();
 
         if (cont.accessMasterStop)

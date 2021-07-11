@@ -20,7 +20,7 @@ public class Title2Run : MonoBehaviour
     public void onButtonClick()
     {
         
-        SceneManager.LoadScene("UI_backup");
+        SceneManager.LoadScene("GUI");
 
     }
 }
